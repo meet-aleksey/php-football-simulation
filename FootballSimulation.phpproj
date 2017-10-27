@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>FootballSimulation</Name>
+    <ProjectGuid>4e7ef78d-faeb-4927-8fbe-62034d87c064</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>FootballSimulation</AssemblyName>
+    <ProjectHome />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="api.php" />
+    <Compile Include="index.php" />
+    <Compile Include="match.php" />
+    <Compile Include="stage.php" />
+    <Compile Include="team.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="client.js" />
+    <Content Include="data.csv" />
+    <Content Include="preview.gif" />
+    <Content Include="README.md" />
+    <Content Include="README.ru.md" />
+    <Content Include="styles.css" />
+  </ItemGroup>
+</Project>

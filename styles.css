@@ -1,0 +1,199 @@
+﻿body {
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #292b2c;
+  background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  border-collapse: collapse;
+  background-color: transparent;
+  display: table;
+  border-collapse: collapse;
+  border-spacing: 2px;
+  border-color: grey;
+}
+
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #eceeef;
+}
+
+table td, table th {
+  padding: .75rem;
+  vertical-align: top;
+  border-top: 1px solid #eceeef;
+}
+
+td, th {
+  display: table-cell;
+  text-align: center;
+}
+
+th {
+  font-weight: bold;
+}
+
+th:first-child, td:first-child {
+  text-align: left;
+}
+
+table.stage th {
+  width: 25%;
+}
+
+table.stage td.winner {
+  color: green;
+  font-weight: bold;
+}
+
+table.stage td.loser {
+  color: red;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.total-games-avg {
+  color: navy;
+}
+
+.games {
+  color: royalblue;
+}
+
+.wins {
+  color: green;
+}
+
+.draw {
+  color: gold;
+}
+
+.losses {
+  color: mediumvioletred;
+}
+
+.goals {
+  color: teal;
+}
+
+.missed {
+  color: mediumpurple;
+}
+
+.goals-avg {
+  color: seagreen;
+}
+
+.missed-avg {
+  color: mediumorchid;
+}
+
+.attack {
+  color: tomato;
+}
+
+.defense {
+  color: skyblue;
+}
+
+.teams {
+  color: darkorange;
+}
+
+.details {
+  font-size: x-small;
+  color: darkgray;
+}
+
+.highlight, tr:hover td.highlight {
+  background-color: black;
+  color: white;
+}
+
+.total {
+  font-weight: bold;
+}
+
+tr:hover td {
+  background-color: cornsilk;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn:focus, .btn:hover {
+    text-decoration: none;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  color: #ffffff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.5);
+}
+
+.hidden {
+  display: none;
+}
